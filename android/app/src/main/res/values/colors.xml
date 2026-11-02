@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color principal vino UAO -->
+    <color name="ingenia_primary">#8C233E</color>
+    <color name="ingenia_primary_dark">#6B1A2F</color>
+
+    <!-- Fondos y superficies -->
+    <color name="ingenia_background">#F8F9FA</color>
+    <color name="ingenia_white">#FFFFFF</color>
+
+    <!-- Textos -->
+    <color name="ingenia_text_primary">#1A1A1A</color>
+    <color name="ingenia_text_secondary">#757575</color>
+
+    <!-- Estados de asesoría (los de Figma) -->
+    <color name="estado_agendada">#1E88E5</color>
+    <color name="estado_reprogramada">#F57C00</color>
+    <color name="estado_cancelada">#E53935</color>
+    <color name="estado_finalizada">#43A047</color>
+
+    <!-- Alertas y errores -->
+    <color name="error_background">#FDE8E8</color>
+    <color name="error_text">#C81E1E</color>
+</resources>

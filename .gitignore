@@ -1,0 +1,24 @@
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Android builds y temporales
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/Captures/
+android/.cxx/
+
+# Backend builds y temporales
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
