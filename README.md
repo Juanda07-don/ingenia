@@ -43,6 +43,7 @@ El sistema articula una aplicación móvil nativa en **Android (Java)**, un back
 
 * **`/backend`**: Proyecto Spring Boot con controladores REST, entidades JPA, servicios de negocio, manejo de excepciones y configuración de seguridad.
 * **`/android`**: Proyecto de Android Studio con actividades, adaptadores, layouts XML y cliente HTTP.
+* **`/database`**: Script SQL (`ingenia.sql`) con la creación del esquema y datos iniciales de prueba (usuarios, materias, cubículos y franjas).
 
 ---
 
@@ -58,7 +59,11 @@ El sistema articula una aplicación móvil nativa en **Android (Java)**, un back
 ## 🚀 Puesta en Marcha (Entorno Local)
 
 ### 1. Base de Datos (MySQL)
-Crear la base de datos `ingenia` y configurar las credenciales en `backend/src/main/resources/application.properties`:
+1. Crear la base de datos `ingenia` e importar el archivo `database/ingenia.sql` (vía MySQL Workbench o línea de comandos):
+```sql
+CREATE DATABASE IF NOT EXISTS ingenia;
+```
+2. Verificar las credenciales en `backend/src/main/resources/application.properties`:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/ingenia?useSSL=false&serverTimezone=UTC
 spring.datasource.username=ingenia
@@ -95,3 +100,4 @@ Abrir la carpeta `/android` en Android Studio y ejecutar el proyecto en un emula
 
 ## 📄 Licencia y Derechos
 Proyecto académico desarrollado para la asignatura **Ingeniería de Software I** — Universidad Autónoma de Occidente (2026).
+
