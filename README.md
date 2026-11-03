@@ -1,11 +1,11 @@
-# Ingenia 🎓
+# Ingenia 
 
 > Sistema Móvil de Gestión y Agendamiento de Asesorías Académicas Especializadas  
 > **Facultad de Ingeniería — Universidad Autónoma de Occidente (UAO)**
 
 ---
 
-## 📌 Descripción del Proyecto
+##  Descripción del Proyecto
 
 **Ingenia** es una solución integral cliente-servidor desarrollada para reemplazar las filas y consultas presenciales por un sistema de agendamiento anticipado, trazabilidad y cierre formal de asesorías universitarias.
 
@@ -13,7 +13,7 @@ El sistema articula una aplicación móvil nativa en **Android (Java)**, un back
 
 ---
 
-## 🏗️ Arquitectura y Tecnologías
+##  Arquitectura y Tecnologías
 
 ```
 ┌───────────────────────────────────────┐
@@ -39,7 +39,7 @@ El sistema articula una aplicación móvil nativa en **Android (Java)**, un back
 
 ---
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 
 * **`/backend`**: Proyecto Spring Boot con controladores REST, entidades JPA, servicios de negocio, manejo de excepciones y configuración de seguridad.
 * **`/android`**: Proyecto de Android Studio con actividades, adaptadores, layouts XML y cliente HTTP.
@@ -47,7 +47,7 @@ El sistema articula una aplicación móvil nativa en **Android (Java)**, un back
 
 ---
 
-## 👥 Equipo de Trabajo
+##  Equipo de Trabajo
 
 * **Juan David Tenorio Tenorio** — Líder de Pruebas / QA Principal & Desarrollador
 * **Juan Esteban Bermúdez Montenegro** — Diseñador de Casos de Prueba
@@ -56,7 +56,7 @@ El sistema articula una aplicación móvil nativa en **Android (Java)**, un back
 
 ---
 
-## 🚀 Puesta en Marcha (Entorno Local)
+##  Puesta en Marcha (Entorno Local)
 
 ### 1. Base de Datos (MySQL)
 1. Crear la base de datos `ingenia` e importar el archivo `database/ingenia.sql` (vía MySQL Workbench o línea de comandos):
@@ -89,7 +89,7 @@ Abrir la carpeta `/android` en Android Studio y ejecutar el proyecto en un emula
 
 ---
 
-## 🔑 Credenciales de Prueba
+##  Credenciales de Prueba
 
 | Rol | Correo Institucional | Contraseña | Identificador |
 | :--- | :--- | :--- | :--- |
